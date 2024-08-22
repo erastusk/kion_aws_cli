@@ -9,7 +9,7 @@ import (
 	"strconv"
 )
 
-const token = "Bearer app_965_HTwSMfU8k9UBUvEcBaALxwtuMkpUECMR"
+const token = "Bearer <YOUR API TOKEN>"
 
 func Getlabels(id int) projectLabels {
 	i := strconv.Itoa(id)

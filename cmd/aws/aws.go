@@ -22,13 +22,4 @@ var AwsCmd = &cobra.Command{
 
 func init() {
 	AwsCmd.AddCommand(LoginCmd)
-	// Here you will define your flags and configuration settings.
-
-	// Cobra supports Persistent Flags which will work for this command
-	// and all subcommands, e.g.:
-	// awsCmd.PersistentFlags().String("foo", "", "A help for foo")
-
-	// Cobra supports local flags which will only run when this command
-	// is called directly, e.g.:
-	// awsCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
